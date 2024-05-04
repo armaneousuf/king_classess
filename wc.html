@@ -44,17 +44,41 @@
     }
 
     a {
-      color: #2cb34e;
+      color: #2c57b3;
     }
 
     section {
       margin: 3.5rem;
     }
+
+    body.dark-mode {
+  background-color: #b8ada1;
+  color: white;
+}
+
+.circular-button {
+  border: none;
+  background-color: transparent;
+  color: #000000;
+  margin: 0 auto;
+  margin-top: 15px;
+  text-align: center;
+  width: 100%;  
+  font-family: "Reddit Sans Condensed", sans-serif;
+}
   </style>
 </head>
 <body>
   <div class="container">
     <h1>Welcome to Working Capital</h1>
+    <button onclick="myFunction()" class="circular-button">Switch theme</button>
+
+    <script>
+    function myFunction() {
+       var element = document.body;
+       element.classList.toggle("dark-mode");
+    }
+    </script>
     <section>
       <h2>Holding (3 videos)</h2>
       <ol>

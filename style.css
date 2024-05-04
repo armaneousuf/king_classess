@@ -74,7 +74,7 @@ textarea {
   height: 150px;
 }
 
-button {
+.button {
   width: 100%;
   border: none;
   font-size: 20px;
@@ -84,7 +84,7 @@ button {
   border-radius: 10px;
 }
 
-button:hover {
+.button:hover {
   color: #183b3a
 }
 
@@ -93,6 +93,22 @@ form p {
   margin-top: 1rem;
   margin-bottom: 1rem;
   color: #4682A9;
+}
+
+body.dark-mode {
+  background-color: #b8ada1;
+  color: white;
+}
+
+.circular-button {
+  border: none;
+  background-color: transparent;
+  color: #000000;
+  margin: 0 auto;
+  margin-top: 15px;
+  text-align: center;
+  width: 100%;  
+  font-family: "Reddit Sans Condensed", sans-serif;
 }
 
 
