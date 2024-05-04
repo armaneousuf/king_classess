@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Sans+Condensed:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Reddit+Sans+Condensed:wght@200..900&display=swap');
+
+body {
+  font-family: "Reddit Sans Condensed", sans-serif;
+  background-color: #FEFAF6;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+header {
+  text-align: center;
+  color: #102C57;
+
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  p {
+    font-size: 1.1rem;
+    font-style: italic;
+    /* color: #363062; */
+  }
+}
+
+nav {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+nav a {
+  color: #4682A9;
+  position: relative;
+}
+
+nav p {
+  padding: 2rem;
+}
+
+a:hover {
+  color: #183b3a;
+  border-bottom: 2px solid rgb(44, 179, 78);
+  transition: all 2s ease;
+}
+
+.container {
+  font-family: "Reddit Sans Condensed", sans-serif;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #102C57;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+textarea {
+  height: 150px;
+}
+
+button {
+  width: 100%;
+  border: none;
+  font-size: 20px;
+  padding: 1rem;
+  background-color: #4682A9;
+  color: #FEFAF6;
+  border-radius: 10px;
+}
+
+button:hover {
+  color: #183b3a
+}
+
+form p {
+  font-size: 15px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: #4682A9;
+}
+
+
+
+
