@@ -82,10 +82,13 @@ textarea {
   background-color: #4682A9;
   color: #FEFAF6;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 .button:hover {
-  color: #183b3a
+  color: #000202;
+  background-color: #7e7265;
+  transition: all 1s ease;
 }
 
 form p {
