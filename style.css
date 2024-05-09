@@ -104,8 +104,8 @@ form p {
 }
 
 body.dark-mode {
-  background-color: #b8ada1;
-  color: white;
+  background-color: #b8ada1de;
+  color: #ffffff;
 }
 
 .circular-button {

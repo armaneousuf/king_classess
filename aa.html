@@ -51,31 +51,38 @@
     }
 
     body.dark-mode {
-  background-color: #b8ada1;
+  background-color: #b8ada1de;
   color: white;
 }
 
 .circular-button {
   border: none;
   background-color: transparent;
+  border-bottom: 3px solid #285b64;
+  display: flex;
+  justify-content: center;
   color: #000000;
   margin: 0 auto;
   margin-top: 15px;
-  text-align: center;
-  width: 100%;  
-  font-family: "Reddit Sans Condensed", sans-serif;
+  font-size: 1rem;
+  font-family: "Open Sans", sans-serif;
 }
   </style>
 </head>
 <body>
   <div class="container">
     <h1>Welcome to Advanced Accounting II</h1>
-    <button onclick="myFunction()" class="circular-button">Switch theme</button>
-
+    <button onclick="myFunction()" class="circular-button" id="themeButton">Switch theme</button>
     <script>
     function myFunction() {
-       var element = document.body;
+       let element = document.body;
        element.classList.toggle("dark-mode");
+       let button = document.getElementById("themeButton");
+       if (element.classList.contains("dark-mode")) {
+           button.textContent = "Theme Switched";
+       } else {
+           button.textContent = "Switch theme";
+       }
     }
     </script>
     <section>
