@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Reddit+Sans+Condensed:wght@200..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Reddit+Sans+Condensed:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 body {
   font-family: "Reddit Sans Condensed", sans-serif;
@@ -56,11 +57,13 @@ form {
   max-width: 400px;
   margin: 0 auto;
 }
+
 label {
   display: block;
   margin-bottom: 0.5rem;
   color: #102C57;
 }
+
 input[type="text"],
 input[type="email"],
 textarea {
@@ -69,7 +72,9 @@ textarea {
   margin-bottom: 1rem;
   border: 1px solid #ccc;
   border-radius: 5px;
+  font-family: "Reddit Sans Condensed", sans-serif;
 }
+
 textarea {
   height: 150px;
 }
@@ -106,12 +111,14 @@ body.dark-mode {
 .circular-button {
   border: none;
   background-color: transparent;
+  border-bottom: 3px solid #285b64;
+  display: flex;
+  justify-content: center;
   color: #000000;
   margin: 0 auto;
   margin-top: 15px;
-  text-align: center;
-  width: 100%;  
-  font-family: "Reddit Sans Condensed", sans-serif;
+  font-size: 1rem;
+  font-family: "Open Sans", sans-serif;
 }
 
 

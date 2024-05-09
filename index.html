@@ -9,17 +9,23 @@
 <body>
 <header>
   <h1>KING CLASSES</h1>
-<p>Find all youtube's videos in one place (4th year special)</p>
+<p>Find king classes 4th years all YouTube videos in one place</p>
 </header>
   <main>
-    <button onclick="myFunction()" class="circular-button">Switch theme</button>
-
+    <button onclick="myFunction()" class="circular-button" id="themeButton">Switch theme</button>
 <script>
 function myFunction() {
    let element = document.body;
    element.classList.toggle("dark-mode");
+   let button = document.getElementById("themeButton");
+   if (element.classList.contains("dark-mode")) {
+       button.textContent = "Theme Switched";
+   } else {
+       button.textContent = "Switch theme";
+   }
 }
 </script>
+
 <div class="container">
   <nav>
     <p><a href="aa.html">Advanced Accounting II</a></p>
@@ -41,7 +47,7 @@ function myFunction() {
       <textarea name="text" id="text" placeholder="Your message goes here!"></textarea>
       <button class="button">Submit</button>
       <p>Also you can send messages through <a href="https://forms.gle/SDVRPgnp4hxSJUiC7">Google Forms</a></p>
-      <p>This website is under <span>construction</span>. If you find any bugs or have any suggestions feel free to send a message. If you are a dev then contribute <a href="https://github.com/armaneousuf/king_classess">Here's the repo</a></p>
+      <p>This website is under <span>construction</span>. If you find any bugs or have any suggestions feel free to send a message. If you are a dev then you can also contribute <a href="https://github.com/armaneousuf/king_classess">Here's the repo</a></p>
 
     </form>
 </div>
